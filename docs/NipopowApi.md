@@ -1,6 +1,6 @@
 # ErgoNodeApi.NipopowApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,7 +20,7 @@ Construct PoPow header for best header at given height
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.NipopowApi();
 let height = 56; // Number | Height of a wanted header
@@ -63,7 +63,7 @@ Construct PoPow header according to given header id
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.NipopowApi();
 let headerId = "headerId_example"; // String | ID of wanted header
@@ -106,7 +106,7 @@ Construct PoPoW proof for given min superchain length and suffix length
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.NipopowApi();
 let minChainLength = 3.4; // Number | Minimal superchain length
@@ -151,7 +151,7 @@ Construct PoPoW proof for given min superchain length, suffix length and header 
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.NipopowApi();
 let minChainLength = 3.4; // Number | Minimal superchain length

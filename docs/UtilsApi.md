@@ -1,6 +1,6 @@
 # ErgoNodeApi.UtilsApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -23,7 +23,7 @@ Convert Pay-To-Public-Key Address to raw representation (hex-encoded serialized 
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let address = "address_example"; // String | address to extract public key from
@@ -66,7 +66,7 @@ Check address validity
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let address = "address_example"; // String | address to check
@@ -109,7 +109,7 @@ Generate Ergo address from hex-encoded ErgoTree
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let ergoTreeHex = 100204a00b08cd021cf943317b0fdb50f60892a46b9132b9ced337c7de79248b104b293d9f1f078eea02d192a39a8cc7a70173007301; // String | ErgoTree to derive an address from
@@ -152,7 +152,7 @@ Get random seed of 32 bytes
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 apiInstance.getRandomSeed((error, data, response) => {
@@ -191,7 +191,7 @@ Generate random seed of specified length in bytes
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let length = "length_example"; // String | seed length in bytes
@@ -234,7 +234,7 @@ Return Blake2b hash of specified message
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let body = "body_example"; // String | 
@@ -277,7 +277,7 @@ Generate Pay-To-Public-Key address from hex-encoded raw pubkey (secp256k1 serial
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtilsApi();
 let pubkeyHex = 02a7955281885bf0f0ca4a48678848cad8dc5b328ce8bc1d4481d041c98e891ff3; // String | public key to get address from

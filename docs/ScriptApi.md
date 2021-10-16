@@ -1,6 +1,6 @@
 # ErgoNodeApi.ScriptApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,7 +21,7 @@ Convert an address to hex-encoded Sigma byte array constant which contains scrip
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.ScriptApi();
 let address = "address_example"; // String | address to get a script from
@@ -64,7 +64,7 @@ Convert an address to hex-encoded serialized ErgoTree (script)
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.ScriptApi();
 let address = "address_example"; // String | address to get a script from
@@ -107,7 +107,7 @@ Execute script with context
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -156,7 +156,7 @@ Create P2SAddress from Sigma source
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -205,7 +205,7 @@ Create P2SHAddress from Sigma source
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];

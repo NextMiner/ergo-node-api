@@ -1,6 +1,6 @@
 # ErgoNodeApi.PeersApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,7 +21,7 @@ Add address to peers list
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -70,7 +70,7 @@ Get all known peers
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.PeersApi();
 apiInstance.getAllPeers((error, data, response) => {
@@ -109,7 +109,7 @@ Get blacklisted peers
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.PeersApi();
 apiInstance.getBlacklistedPeers((error, data, response) => {
@@ -148,7 +148,7 @@ Get current connected peers
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.PeersApi();
 apiInstance.getConnectedPeers((error, data, response) => {
@@ -187,7 +187,7 @@ Get last incomming message timestamp and current network time
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.PeersApi();
 apiInstance.getPeersStatus((error, data, response) => {

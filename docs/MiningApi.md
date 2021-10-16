@@ -1,6 +1,6 @@
 # ErgoNodeApi.MiningApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,7 +21,7 @@ Read miner reward address
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -66,7 +66,7 @@ Read public key associated with miner rewards
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -111,7 +111,7 @@ Request block candidate
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -156,7 +156,7 @@ Request block candidate
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
@@ -205,7 +205,7 @@ Submit solution for current candidate
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 let defaultClient = ErgoNodeApi.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];

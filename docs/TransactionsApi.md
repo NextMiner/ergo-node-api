@@ -1,6 +1,6 @@
 # ErgoNodeApi.TransactionsApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -22,7 +22,7 @@ Checks an Ergo transaction without sending it over the network. Checks that tran
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let ergoTransaction = new ErgoNodeApi.ErgoTransaction(); // ErgoTransaction | 
@@ -65,7 +65,7 @@ Get expected wait time for the transaction with specified fee and size
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let fee = 1; // Number | Transaction fee (in nanoErgs)
@@ -110,7 +110,7 @@ Get histogram (waittime, (n_trans, sum(fee)) for transactions in mempool. It con
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let opts = {
@@ -157,7 +157,7 @@ Get recommended fee (in nanoErgs) for a transaction with specified size (in byte
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let waitTime = 1; // Number | Maximum transaction wait time in minutes
@@ -202,7 +202,7 @@ Get current pool of the unconfirmed transactions pool
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let opts = {
@@ -249,7 +249,7 @@ Submit an Ergo transaction to unconfirmed pool to send it over the network
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.TransactionsApi();
 let ergoTransaction = new ErgoNodeApi.ErgoTransaction(); // ErgoTransaction | 

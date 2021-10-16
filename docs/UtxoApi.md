@@ -1,6 +1,6 @@
 # ErgoNodeApi.UtxoApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,7 +21,7 @@ Get genesis boxes (boxes existed before the very first block)
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtxoApi();
 apiInstance.genesisBoxes((error, data, response) => {
@@ -60,7 +60,7 @@ Get box contents for a box by a unique identifier.
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtxoApi();
 let boxId = "boxId_example"; // String | ID of a wanted box
@@ -103,7 +103,7 @@ Get serialized box from UTXO pool in Base16 encoding by an identifier.
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtxoApi();
 let boxId = "boxId_example"; // String | ID of a wanted box
@@ -146,7 +146,7 @@ Get box contents for a box by a unique identifier, from UTXO set and also the me
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtxoApi();
 let boxId = "boxId_example"; // String | ID of a box to obtain
@@ -189,7 +189,7 @@ Get serialized box in Base16 encoding by an identifier, considering also the mem
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.UtxoApi();
 let boxId = "boxId_example"; // String | ID of a wanted box

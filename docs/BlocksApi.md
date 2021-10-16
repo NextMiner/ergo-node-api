@@ -1,6 +1,6 @@
 # ErgoNodeApi.BlocksApi
 
-All URIs are relative to *https://api.jsonbin.io*
+All URIs are relative to *http://127.0.0.1:9053*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -26,7 +26,7 @@ Get the block header info by a given signature
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let headerId = "headerId_example"; // String | ID of a wanted block header
@@ -69,7 +69,7 @@ Get the block transactions info by a given signature
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let headerId = "headerId_example"; // String | ID of a wanted block transactions
@@ -112,7 +112,7 @@ Get headers in a specified range
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let opts = {
@@ -159,7 +159,7 @@ Get the header ids at a given height
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let blockHeight = 56; // Number | Height of a wanted block
@@ -202,7 +202,7 @@ Get the full block info by a given signature
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let headerId = "headerId_example"; // String | ID of a wanted block
@@ -245,7 +245,7 @@ Get the Array of header ids
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let opts = {
@@ -292,7 +292,7 @@ Get the last headers objects
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let count = 3.4; // Number | count of a wanted block headers
@@ -335,7 +335,7 @@ Get the persistent modifier by its id
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let modifierId = "modifierId_example"; // String | ID of a wanted modifier
@@ -378,7 +378,7 @@ Get Merkle proof for transaction
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let headerId = "headerId_example"; // String | ID of a wanted block transactions
@@ -423,7 +423,7 @@ Send a mined block
 ### Example
 
 ```javascript
-import ErgoNodeApi from 'ergo_node_api';
+import ErgoNodeApi from 'ergo-node-api';
 
 let apiInstance = new ErgoNodeApi.BlocksApi();
 let fullBlock = new ErgoNodeApi.FullBlock(); // FullBlock | 

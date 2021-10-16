@@ -588,7 +588,7 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "https://api.jsonbin.io",
+              'url': "http://127.0.0.1:9053",
               'description': "No description provided",
             }
       ];
